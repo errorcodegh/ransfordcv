@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head><title>PROFESSIONAL PROFILE</title>
+<link rel="stylesheet" href="profile.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, scalable=no">
+
+</head>
+<body>
+ 
+ <div id="together">
+
+ 	<div id="right">
+
+      <div id="top">
+      <marquee><h4>Below are project build,both complete and incomplete</h4></marquee>
+      <button onclick="back()" id="close"><i class="fa fa-times-circle"></i></button>
+   </div>
+      
+      <div id="slider">
+      <figure>
+     <img src="test1.png" id="im">
+     <img src="test2.png" id="im">
+     <img src="test3.png" id="im">
+     <img src="test4.png" id="im">
+     <img src="or.jpg" id="im">
+     </figure>
+      </div>
+
+<center>
+   <br><h2>Projects</h2><br>
+       <div id="allnum">
+  <div class="run1">
+   <p class="rn">Completed</p>
+   <p id="num1">0</p>
+   <h6>Completed and hosted</h6>
+</div>
+
+
+<div class="run2">
+   <p class="rn">On-Going</p>
+   <p id="num2">0</p>
+   <h6>Amongst this are web app and systems</h6>  
+</div>
+
+<div class="run3">
+   <p class="rn">Pending</p>
+   <p id="num3">25</p>
+   <h6>Amongst this are websites</h6>  
+</div>
+</div>
+</center>
+
+<center>
+<br><br><br><div id="me"><br>
+<h2>About Me</h2><br>
+<p>A fullstack developer with over 5years experience in the field
+of database,networking,programing and web development.I'm currently recruited in the education sector,where i teach computer science program,with my experience in Html,Css,Javascript,Php,Sql,Mysql AND C++.I prioritise my skills in the construction of web apps and website that are responsive on all device scalabilities.follow or contact me on all web releted questions or contracts.Thank You</p><br><br>
+</div></center><br><br><br>
+
+
+<div id="projects">
+<h3>School Website</h3><br>
+<div id="ship">
+ <img src="test1.png">
+ <p>A school website with the purpose of interacting with
+ individuals interested in the schools program.
+ Language used....Html  | css  |  javascript
+ Website...https://www.sidepcollage.org</p>
+</div><br><br>
+
+
+<h3>Banking App Demo</h3><br>
+<div id="bank">
+ <img src="test2.png">
+ <p>A bank app demo for final year project.
+ features are   -Secure loging | -transaction approval | -session establishment | -reciept generator | -user request approval<br>
+ Languages used ...Html | css | javascript | php | sql | mysql<br>
+ website...https://www.demobank.com</p>
+</div><br><br>
+
+<h3>Courier Shipping Web App</h3><br>
+<div id="bank">
+ <img src="test3.png">
+ <p>A courier shipping website for order and sending order
+ Features... -Secure logging | -session establishment | -order approval | -order tracking | -reciept generation<br>
+  Language used ...  -Html | -css | -javascript | -php | -sql | -mysql <br>website  https://www.shipmanghana.com </p>
+</div><br><br>
+
+<h3>school management system</h3><br>
+<div id="bank">
+ <img src="test4.png">
+ <p>A responsive school management system for running the day to day activity in schhol<br>
+ features  -secure logging | -session establishment | -profile and profile update | -student attendance | -ETC
+Language  -Html | -css | -javascript | -php | -sql | -mysql<br>
+website  'localhost'</p>
+</div><br><br><br>
+
+   </div>
+
+ 	</div>
+
+ 	<div id="left">
+       <div id="cl">
+         <button onclick="tester()"><i class="fa fa-bars"></i></button>
+         <h1><i class="fa fa-long-arrow-left" id="arrow"></i></h1>
+       </div><br>
+    <img src="me.jpg" id="pic">
+    <p>Fullstack Web Developer</p>
+    <p>Network Engineer</p>
+    <p>Relational Database Expert</p>
+
+    <div id="small_left">
+    <h3>Skills  <i class="fa fa-sort-desc"></i></h3>  
+    <h3>Fullstack Developer   <i class="fa fa-sort-desc"></i></h3>
+    <p>PHP</p>
+    <p>JAVASCRIPT</p>
+    <p>HTML5</p>
+    <p>CSS3</p>
+
+    <h3>Database Expert   <i class="fa fa-sort-desc"></i></h3>
+    <p>MYSQL</p>
+    <p>SQL</p>
+
+    <h3>Network Engineer  <i class="fa fa-sort-desc"></i></h3>
+    <p>Cable networking</p>
+    <p>Troubleshooting</p>
+
+    <h3>Contact Info   <i class="fa fa-sort-desc"></i></h3>
+    <p>Ransford Boateng</p>
+    <p>Rans76boat@gmail.com</p>
+    <p>0543853263  <i class="fa fa-phone"></i></p>
+    <p>Tema-Ghana</p>
+    
+    
+    </div>
+ 	</div>
+ </div>
+
+
+<script>
+function tester(){
+   document.getElementById("right").style.width="100%";
+   document.getElementById("left").style.display="none"; 
+   document.getElementById("foot").style.display="none"; 
+}
+
+function back(){
+   document.getElementById("right").style.width="0%";
+   document.getElementById("left").style.display="block"; 
+   document.getElementById("foot").style.display="block"; 
+
+}
+
+</script>
+
+<script>
+ let speed = 900;
+ let counter = setInterval(test,speed);
+ let reading = 0;
+ 
+ function test(){
+ let counting = document.getElementById('num1');
+ counting.innerHTML = reading++;
+ if(reading == 11){
+   clearInterval(counter);
+ }
+}
+
+ let speed1 = 800;
+ let counter1 = setInterval(test1,speed1);
+ let reading1 = 0;
+
+ function test1(){
+ let counting1 = document.getElementById('num2');
+ counting1.innerHTML = reading1++;
+ if(reading1 == 21){
+   clearInterval(counter1);
+ }
+
+}
+
+let speed2 = 1000;
+ let counter2 = setInterval(test2,speed2);
+ let reading2 = 0;
+
+ function test2(){
+ let counting2 = document.getElementById('num3');
+ counting2.innerHTML = reading2++;
+ if(reading2 == 11){
+   clearInterval(counter2);
+ }
+
+}
+
+   </script>
+
+
+   <footer id="foot">
+      <div id="first">
+       <a href="#">facebook <i class="fa fa-facebook-square"></i></a>
+       <a href="#">Twitter <i class="fa fa-twitter-square"></i></a>
+       <a href="#">Email <i class="fa fa-envelope-o"></i></a>
+      </div>
+
+      <div id="second">
+      <h3>Bio</h3>
+      <p>A fullstack developer with over 5years experience in html css javascript php sql and mysql</p>
+      </div>
+      
+      <div id="third">
+       <p>Self developed © bussiness proffessional summery <i class="fa fa-check-square-o"></i></p>
+       <p>Self developed © errorcode solved <i class="fa fa-check-square-o"></i></p>
+       <p>Self developed © tema ghana <i class="fa fa-check-square-o"></i></p>
+      </div>
+    </footer>
+	</body>
+	</html>
