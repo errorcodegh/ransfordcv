@@ -306,10 +306,15 @@ text-align: center;
 	display: none;
 }
 
+	#first{
+		line-height: 1.7em;
+	}
+
 #third{
 	font-weight: bold;
   font: 500 20px system-ui;
   font-family: arial;
+	text-align: justify;
 
 }
 
