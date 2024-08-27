@@ -294,9 +294,10 @@ marquee{
 }
 
 footer{
-width: 100%;
+max-width: 100%;
 display: inline-block;
 text-align: center;
+background: rgba(0, 0,256, 0.1);
 }
 
 #second{
@@ -310,10 +311,11 @@ text-align: center;
 	}
 
 #third{
+	  max-width: 90%;
 	font-weight: bold;
   font: 500 20px system-ui;
   font-family: arial;
-	text-align: justify;
+text-align: justify;
 
 }
 
