@@ -299,6 +299,8 @@ height: auto;
 display: inline-block;
 text-align: center;
 background: rgba(0, 0,256, 0.1);
+border-radius: 3em;
+border-bottom: 0.5em solid red;
 }
 
 #second{
