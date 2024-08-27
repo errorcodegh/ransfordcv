@@ -295,6 +295,7 @@ marquee{
 
 footer{
 max-width: 100%;
+height: auto;
 display: inline-block;
 text-align: center;
 background: rgba(0, 0,256, 0.1);
