@@ -105,11 +105,13 @@ website  'localhost'</p>
          <button onclick="tester()"><i class="fa fa-bars"></i></button>
          <h1><i class="fa fa-long-arrow-left" id="arrow"></i></h1>
        </div><br>
+		<div id="prof">
     <img src="me.jpg" id="pic">
     <p>Fullstack Web Developer</p>
     <p>Network Engineer</p>
     <p>Relational Database Expert</p>
-
+		</div>
+		
     <div id="small_left">
     <h3>Skills  <i class="fa fa-sort-desc"></i></h3>  
     <h3>Fullstack Developer   <i class="fa fa-sort-desc"></i></h3>
