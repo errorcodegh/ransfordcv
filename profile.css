@@ -26,11 +26,11 @@
 #left{
 	background: rgba(200, 0, 0, 1);
 	width: 25%;
-	max-height: auto;
+	height: auto;
 	line-height: 2.5em;
 	color: white;
 	text-align: center;
-    position: sticky;
+        position: sticky;
 	top: 0px;
 }
 
