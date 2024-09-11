@@ -243,6 +243,7 @@ label,#ff,textarea{
     opacity: 0.6;
 	background: none;
 	border: hidden;
+	color: white;
 }
 
 textarea{
