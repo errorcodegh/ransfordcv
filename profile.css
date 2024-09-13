@@ -139,9 +139,26 @@ opacity: 0.5;
 	width: 100%;
 }
 
-#ship,#bank{
-	display: flex;
+@keyframes anim3{
+from{margin-top: 100px; opacity: 0.1;} to{width: 100%; opacity: 1;}
 }
+
+@keyframes anim4{
+from{margin-top: 100px; opacity: 0.1;} to{width: 100%; opacity: 1;}
+}
+
+@keyframes anim5{
+from{margin-top: 100px; opacity: 0.1;} to{width: 100%; opacity: 1;}
+}
+
+@keyframes anim6{
+from{margin-top: 100px; opacity: 0.1;} to{width: 100%; opacity: 1;}
+}
+
+#bank{display: flex; animation: anim3 2s;}
+#bank1{display: flex; animation: anim4 2s;}
+#bank2{display: flex; animation: anim5 2s;}
+#bank3{display: flex; animation: anim6 2s;}
 
 #projects img{
 	width: 45%;
@@ -491,7 +508,7 @@ marquee{
 }
 
 
-#ship,#bank{
+#bank,#bank1,#bank2,#bank3{
 	display: block;
 }
 
