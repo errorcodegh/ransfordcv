@@ -328,6 +328,26 @@ let speed2 = 1000;
 
 </script>
 
+	<script>
+const observer = new IntersectionObserver(
+  (entries) => {
+    for (const entry of entries) {
+      const intersecting = entry.isIntersecting;
+      entry.target.style.WebkitAnimationPlayState = intersecting ? 'running' : 'paused';
+    }
+  },
+  { threshold: 0.2 }
+);
+const box = document.getElementById('me');
+const box1 = document.getElementById('allmove');
+const box2 = document.getElementById('msg');
+observer.observe(box);
+observer.observe(box1);
+observer.observe(box2);
+
+
+</script>
+
 
 
    <footer id="foot">
