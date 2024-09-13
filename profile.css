@@ -108,11 +108,18 @@ margin-top: 0px;
 	font: 500 25px system-ui;
 }
 
+@keyframes anim{
+	from{margin-left: 150px; opacity: 0.1;}
+	to{width: 75%;  opacity: 1;}
+
+	}
+
 #me{
 	width: 75%;
 	border-top: 0.2em solid gold;
 	border-bottom: 0.4em solid maroon;
-    border-radius: 3em;
+        border-radius: 3em;
+	animation: anim 2s;
 }
 
 #me h2{
@@ -230,10 +237,15 @@ footer a{
     animation: autoslide 2s;	
 }
 
+@keyframes anim2{
+	from{margin-left: 100px; opacity: 0.1;}
+	to{max-width: 100%; opacity: 1;}
+}
 
 #msg{
 	max-width: 100%;
-    margin: 0 10em;
+        margin: 0 10em;
+	animation: anim2 2s;
 }
 
 label,#ff,textarea{
@@ -266,11 +278,18 @@ textarea{
 
 }
 
+@keyframes anim1{
+	from{margin-left: 100px; opacity: 0.1;}
+	to{max-width: 100%;  opacity: 1;}
+
+	}
+
  #allmove{
      max-width: 100%;
      font: 500 19px system-ui;
      line-height: 1em;
      margin: 0 20%;
+     animation: anim1 2s;
     }
 
     #allmove p:nth-child(1){
