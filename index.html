@@ -100,7 +100,7 @@ website  'localhost'</p>
 
 	  <div id="msg">
    <h3>Write To Me</h3><br>
-  <form name="contact">
+  <form name="contact" onsubmit="check()">
    <label for="fullname">Fullname</label>
       <input type="text" id="ff" name="fname" placeholder="fullname here" required><br>
 
@@ -194,6 +194,11 @@ website  'localhost'</p>
  	</div>
  </div>
 
+	<script>
+function check(){
+   alert("database server down,see contact below");
+}
+</script>
 
 <script>
 function tester(){
