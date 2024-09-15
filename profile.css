@@ -468,7 +468,7 @@ marquee{
 }
 
 	@keyframes anim7{
-	from{margin-right: 150px; opacity: -0.1}
+	from{margin-right: 150px; opacity: 0.1}
 	to{max-width: 100%; opacity: 1;}
 }
 
