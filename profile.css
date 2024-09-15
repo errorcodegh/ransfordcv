@@ -467,8 +467,14 @@ marquee{
 	margin-top: 0.6em;
 }
 
+	@keyframes anim7{
+	from{margin-right: 150px; opacity: -0.1}
+	to{max-width: 100%; opacity: 1;}
+}
+
 #allnum{
 	display: inline-block;
+	animation: anim7 2s;
 }
 #num1,#num2,#num3{
  line-height: 2.3em;
