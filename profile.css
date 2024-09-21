@@ -24,7 +24,7 @@
 }
 
 #left{
-	background: #192f01;
+	background: rgba(200,0,0,1);
 	width: 25%;
 	height: 50%;
 	line-height: 2.5em;
