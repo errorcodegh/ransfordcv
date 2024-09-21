@@ -141,19 +141,19 @@ opacity: 0.5;
 }
 
 @keyframes anim3{
-from{margin-top: 100px; opacity: 0.1;} to{width: 100%; opacity: 1;}
+from{margin-top: 100px; opacity: 0.1;} to{ opacity: 1;}
 }
 
 @keyframes anim4{
-from{margin-top: 100px; opacity: 0.1;} to{width: 100%; opacity: 1;}
+from{margin-top: 100px; opacity: 0.1;} to{ opacity: 1;}
 }
 
 @keyframes anim5{
-from{margin-top: 100px; opacity: 0.1;} to{width: 100%; opacity: 1;}
+from{margin-top: 100px; opacity: 0.1;} to{ opacity: 1;}
 }
 
 @keyframes anim6{
-from{margin-top: 100px; opacity: 0.1;} to{width: 100%; opacity: 1;}
+from{margin-top: 100px; opacity: 0.1;} to{ opacity: 1;}
 }
 
 #bank{display: flex; animation: anim3 2s;}
