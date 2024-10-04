@@ -162,7 +162,7 @@ from{margin-top: 100px; opacity: 0.1;} to{ opacity: 1;}
 #bank3{display: flex; animation: anim6 2s;}
 
 #projects img{
-	width: 45%;
+	width: 40%;
 	height: 10em;
 	margin-left: 0.5em;
 	object-fit: cover;
@@ -177,7 +177,7 @@ from{margin-top: 100px; opacity: 0.1;} to{ opacity: 1;}
 	text-align: justify;
 	opacity: 0.8;
 	padding: 3%;
-	width: 50%;
+	width: 40%;
 	border-bottom: 0.2em solid gold;
 	border-radius: 2em;
 }   
