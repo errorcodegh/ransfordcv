@@ -137,8 +137,8 @@ opacity: 0.5;
 }
 
 #projects{
-	width: 90%;
-	margin: 0 5em 0 5em;
+	width: 100%;
+
 }
 
 @keyframes anim3{
@@ -525,10 +525,6 @@ marquee{
 
 #bank,#bank1,#bank2,#bank3{
 	display: block;
-}
-
-	#projects{
-	max-width: 100%;	
 }
 
 #projects img{
