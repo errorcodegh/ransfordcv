@@ -138,6 +138,7 @@ opacity: 0.5;
 
 #projects{
 	width: 100%;
+	margin: 0 5em 0 5em;
 }
 
 @keyframes anim3{
