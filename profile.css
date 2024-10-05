@@ -325,7 +325,7 @@ textarea{
     #move1{
       width: 60%;
       height: 22px;
-      animation: move1 5s;
+      animation: move1 6s;
       border-bottom: 0.2em solid gold; 
     }
 
