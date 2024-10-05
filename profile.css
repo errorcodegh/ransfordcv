@@ -307,7 +307,7 @@ textarea{
      max-width: 100%;
      font: 500 19px system-ui;
      line-height: 1em;
-     margin: 0 15%;
+     margin: 0 20%;
      animation: anim1 2s;
     }
 
@@ -528,7 +528,7 @@ marquee{
 }
 
 	#projects{
-	width: 100%;	
+	max-width: 100%;	
 }
 
 #projects img{
