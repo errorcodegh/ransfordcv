@@ -372,7 +372,7 @@ textarea{
 
    @keyframes move1{
     from{width: 0%;}
-    to{width: 40%;}
+    to{width: 60%;}
    }
 
     @keyframes move2{
